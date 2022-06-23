@@ -82,7 +82,7 @@ void cheat_setup()
 	utils::CreateFileFromMemory(XorStr("C:\\ProgramData\\overlaycleanup.exe").c_str(), reinterpret_cast<const char*>(overlaycleanup), sizeof(overlaycleanup)); // tu crois l'overlay il va s'essuyer le cul tout seul?
 	utils::CreateFileFromMemory(XorStr("C:\\Windows\\Fonts\\ProggyClean.ttf").c_str(), reinterpret_cast<const char*>(proggy), sizeof(proggy)); // au cas ou des ksos ont pas la police au cul mdrr
 	Sleep(2000);
-	ShellExecuteA(NULL, XorStr("open").c_str(), XorStr("C:\\ProgramData\\overlaycleanup.exe").c_str(), NULL, NULL, SW_HIDE); // demarre l'overlay ou jte dÈmarre
+	ShellExecuteA(NULL, XorStr("open").c_str(), XorStr("C:\\ProgramData\\overlaycleanup.exe").c_str(), NULL, NULL, SW_HIDE); // demarre l'overlay ou jte d√©marre
 }
 
 int main()
@@ -104,10 +104,10 @@ int main()
 					check.close();
 					remove(XorStr("C:\\ProgramData\\status.txt").c_str());
 					/*TITRE*/
-					std::string random_part = random_string(10); // genere une chaine de caractËres random de 10 de longueur
-					std::string text_part = XorStr("Omelette - ").c_str(); // nom du cheat
-					std::string full_title = text_part + random_part.c_str(); // les deux combinÈs boum badaboum
-					SetConsoleTitleA(full_title.c_str()); // dÈfini le titre de la console par celui gÈnÈrÈ au dessus zob
+					std::string random_part = random_string(10); // genere une chaine de caract√®res random de 10 de longueur
+					std::string text_part = XorStr("Darling Cookies Free by Inso Web#6666 1 dragan#8255 - ").c_str(); // nom du cheat
+					std::string full_title = text_part + random_part.c_str(); // les deux combin√©s boum badaboum
+					SetConsoleTitleA(full_title.c_str()); // d√©fini le titre de la console par celui g√©n√©r√© au dessus zob
 					std::ofstream titleout("C:\\ProgramData\\title.txt");
 					titleout << full_title.c_str() << std::endl;
 					titleout.close();
@@ -118,8 +118,8 @@ int main()
 					system(XorStr("cls").c_str());
 					std::cout << XorStr("\n\n  License Key : \n\n  "); // encore tu cout la con de tes morts?
 					std::string cle;
-					std::cin >> cle; // tu attribus la clÈ a qui toi vieux chnok
-					KeyAuthApp.license(cle); // en mode tu mets une clÈ invalide Áa s'arrete??
+					std::cin >> cle; // tu attribus la cl√© a qui toi vieux chnok
+					KeyAuthApp.license(cle); // en mode tu mets une cl√© invalide √ßa s'arrete??
 
 					/*DRIVER*/
 					driver_load();
@@ -127,7 +127,7 @@ int main()
 					/*SETUP CHEAT*/
 					cheat_setup();
 
-					system_no_output(XorStr("taskkill /f /im FortniteClient-Win64-Shipping.exe").c_str()); // tu crois tu vas me bz comme Áa BE?
+					system_no_output(XorStr("taskkill /f /im FortniteClient-Win64-Shipping.exe").c_str()); // tu crois tu vas me bz comme √ßa BE?
 
 					Sleep(2000);
 
