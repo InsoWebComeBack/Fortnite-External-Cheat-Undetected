@@ -4,7 +4,7 @@ Don't forget that the source comes from your friend Inso Web :)
 
 I post you a small video of the software:
 
-Please build the source in x65 Release !
+Please build the source in x64 Release !
 
 It will be undetected for a few months I think so have fun don't forget to be careful 
 
