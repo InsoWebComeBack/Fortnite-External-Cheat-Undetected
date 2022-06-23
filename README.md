@@ -6,6 +6,8 @@ I post you a small video of the software:
 
 Please build the source in x64 Release !
 
+you just have to update the offsets, in case of problem with the w2s please change it
+
 It will be undetected for a few months I think so have fun don't forget to be careful 
 
 simple fortnite external using data pointer swap communication & nvidia overlay hijacking
