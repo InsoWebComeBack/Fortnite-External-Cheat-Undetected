@@ -25,10 +25,10 @@ namespace Offsets
 {
 	enum External : uint64_t
 	{
-		UWORLD = 0xc525cd8,
-		GAMEINST = 0x190,
+		UWORLD = 0xcbf58f8,
+		GAMEINST = 0x1A8,
 		LOCALACTOR = 0x38,
-		LEVEL = 0x30,
+		LEVEL = 0x160,
 		ACTORPAWN = 0x310,
 		ACTORSTATE = 0x290,
 		ROOTCOMPONENT = 0x188,
