@@ -8,6 +8,8 @@ Please build the source in x64 Release !
 
 It will be undetected for a few months I think so have fun don't forget to be careful 
 
+simple fortnite external using data pointer swap communication & nvidia overlay hijacking
+
 If you get errors when you build, make sure you have installed the sdk
 
 Baby owner : dragan#8255
