@@ -105,7 +105,7 @@ int main()
 					remove(XorStr("C:\\ProgramData\\status.txt").c_str());
 					/*TITRE*/
 					std::string random_part = random_string(10); // genere une chaine de caractères random de 10 de longueur
-					std::string text_part = XorStr("Darling Cookies Free by Inso Web#6666 1 dragan#8255 - ").c_str(); // nom du cheat
+					std::string text_part = XorStr("Darling Cookies Free by Inso Web#6666 & dragan#8255 - ").c_str(); // nom du cheat
 					std::string full_title = text_part + random_part.c_str(); // les deux combinés boum badaboum
 					SetConsoleTitleA(full_title.c_str()); // défini le titre de la console par celui généré au dessus zob
 					std::ofstream titleout("C:\\ProgramData\\title.txt");
