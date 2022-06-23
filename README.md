@@ -4,6 +4,8 @@ Don't forget that the source comes from your friend Inso Web :)
 
 I post you a small video of the software:
 
+![gaynite(1)(1)](https://user-images.githubusercontent.com/70245299/175225415-484955a9-a40a-449a-a321-3c5ca1482322.gif)
+
 https://streamable.com/h67czi
 
 ![image](https://user-images.githubusercontent.com/70245299/175224807-4a83793f-c952-4cc7-ba22-40a9dd78b741.png)
